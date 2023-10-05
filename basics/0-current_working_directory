@@ -1,6 +1,3 @@
 #!/bin/bash
-
-#Run Emacs in batch mode to evaluate the Elisp code
-
 emacs --batch --eval "(princ (expand-file-name default-directory))"
 
